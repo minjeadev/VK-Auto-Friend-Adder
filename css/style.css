@@ -1,0 +1,68 @@
+body {
+  width: 320px;
+  height: 300px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007ACC;
+  margin-top: 10px;
+}
+
+.url {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.url-label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.domain {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007ACC;
+  margin-top: 10px;
+}
+
+hr {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#stop-btn {
+  background-color: #DC143C;
+}
+
+#start-btn {
+  background-color: #007ACC;
+}
+
+button:hover {
+  background-color: #005F88;
+}

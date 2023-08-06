@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "VK Auto Friend Adder",
+  "description": "Add friends automatically on VK.com",
+  "version": "0.1.0",
+  "version_name": "Sexy Hyunseo",
+  "author": "idonno",
+  "action": { "default_popup": "/interface/popup.html" },
+  "content_scripts": [{"matches":["https://vk.com/friends?act=find"], "js":["/js/WowYouCanReallyDance.js"]}],
+  "minimum_chrome_version": "77.0"
+}
